@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 14px;
+}
+
+.heder-left {
+    display: flex;
+    align-items: center;
+}
+
+.youtube-logo {
+    width: 120px;
+    padding: 0 7px;
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.input-search {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #dddd;
+    font-size: 16px;
+
+}
+
+.input-search:focus {
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.search-btn {
+    width: 50px;
+    border: 1px solid #dddd;
+    border-left: none;
+    padding: 10px;
+}
+
+.mic {
+    background-color: #dddd;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right a {
+    padding: 20px;
+}
+
+.header-right title {
+    background-color: #0b0b0b;
+}
+
+.userprofile img {
+    border-radius: 50%;
+}
+
+.main {
+    height: calc(100vh-70px);
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.desc {
+    padding: 10px;
+    
+}
+
+.video-options {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.video-options a {
+    text-decoration: none;
+    padding-left: 5px;
+    color: black;
+    
+}
+
+.video-options i {
+    margin-left: 10px;
+}
+
+.channel-name {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.video-sidebar {
+    width: 100%;
+    margin: 0 10px;
+}
+
+.link-wrraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-wrraper a {
+    max-width: 100%;
+    border: 1px solid;
+    border-radius: 80px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: #ddd;
+}
+
+.link-wrraper .active {
+    background-color: #2e2929;
+    color: white;
+}
+.pro{
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    margin-right: 20px;
+}
+.recommended-video{
+    display: block;
+    margin: 20px 0 10px 0;
+}
+.recommended-video a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin: 20px 10px 10px 0;
+    width: 100%;
+}
+.thumnail{
+    margin: 0px 10px 10px 0;
+}
+.thumb-description{
+    justify-content: space-between;
+}
